@@ -1,0 +1,41 @@
+/* Header */
+
+.background {
+  display: flex;
+  background: #3f51b5;
+  color: white;
+  justify-content: center;
+}
+
+.widthBlock {
+  width: 800px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav ul {
+  list-style: none;
+  font-size: 13px;
+}
+
+.nav li {
+
+  color: white;
+}
+
+/* Footer   */
+
+.copyRight {
+  padding: 0.5rem 1rem;
+  background: #3f51b5;
+}
+
+.copyRight p {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}

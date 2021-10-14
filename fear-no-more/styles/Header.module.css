@@ -1,0 +1,309 @@
+/* Header */
+
+/* .background {
+  padding-bottom: 150px;
+  display: flex;
+  background: black;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 30px;
+  z-index: -1;
+  position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+  background-attachment: fixed;
+}
+
+.background_logo {
+  display: flex;
+  background-image: url("./Logo.png");
+  background-size: 15%;
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+
+/* .background_cover {
+  background: rgb(0,0,0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+/*
+.navBlock {
+  width: 800px;
+}
+
+.background nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.background nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.background nav li {
+  margin-left:1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.background .pageName {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 2rem;
+} */
+
+/* Footer */
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  background: #3f51b5;
+  color: white;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer_block {
+  display: flex;
+  width: 800px;
+}
+
+/* About Us */
+
+.aboutUs {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+}
+
+.aboutUs_block {
+  width: 280px;
+}
+
+.aboutUs_title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.aboutUs_body {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.aboutUs_address {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.aboutUs_phoneNumber {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.aboutUs_email {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+/* Contact Us */
+
+.contactUs {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+}
+
+.contactUs_block {
+  width: 280px;
+}
+
+.contactUs_title {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contactUs_name {
+  margin-bottom: 15px;
+}
+
+#contactUs_name {
+  width: 100%;
+  outline: none;
+  background-color: #2d3c8e;
+  font-size: 15px;
+  padding: 8px 10px;
+  color: white;
+  border: none;
+}
+
+.contactUs_email {
+  margin-bottom: 15px;
+}
+
+#contactUs_email {
+  width: 100%;
+  outline: none;
+  background-color: #2d3c8e;
+  font-size: 15px;
+  padding: 8px 10px;
+  color: white;
+  border: none;
+}
+
+.contactUs_message {
+  margin-bottom: 15px;
+}
+
+#contactUs_message {
+  width: 100%;
+  outline: none;
+  background-color: #2d3c8e;
+  font-size: 15px;
+  padding: 8px 10px;
+  color: white;
+  height: 80px;
+  resize: none;
+  border: none;
+}
+
+.contactUs_submit {
+  width: 180px;
+  height: 45px;
+  font-size: 16px;
+  background-color: #2d3c8e;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+/* New Header */
+.navbar {
+  background-image: url("../public/backgroundwithsize.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+  background-attachment: fixed;
+  height: 350px;
+  margin-bottom: 30px;
+  }
+
+.navbar_first_block{
+  display: flex;
+  justify-content: center;
+}
+
+.navbar_block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  width: 800px;
+}
+
+.navbar_logo {
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.navbar_logo_detail {
+  color: black;
+}
+
+.navbar_menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar_menu li {
+  padding: 8px 12px;
+  color: white;
+}
+
+.navbar_menu_gone {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar_menu_gone li {
+  padding: 8px 12px;
+  color: white;
+}
+
+.navbar_toggleBtn{
+  display: none;
+  position: absolute;
+  right: 15px;
+  font-size: 24px;
+  padding: 25px;
+  color: white;
+}
+
+.pageName {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+@media screen and (max-width:768px) {
+  .navbar {
+    background-image: url("../public/backgroundwithsize.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    background-attachment: fixed;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+
+  .navbar_block {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+  .navbar_menu{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar_menu li{
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar_toggleBtn{
+    display: block;
+  }
+
+  .navbar_menu_gone{
+    display: none;
+  }
+}
